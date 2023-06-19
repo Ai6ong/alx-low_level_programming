@@ -4,7 +4,7 @@
  *
  * Return: 0 (Successful)
  */
-int main()
+int main(void)
 {
 	char a[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
