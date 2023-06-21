@@ -1,18 +1,23 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - this program prints -putchar followed by a new line.
- * Return 0 (Successful)
+ * main - Entry point
+ *
+ * Description: Write a program that prints "_putchar" followed by a new line.
+ *
+ * Return: 0 (Success)
  */
 int main(void)
 {
-        /* This program prints "_putchar" followed by a new line */
-        char str[] = "_putchar\n";
-        int i = 0;
+	_putchar('-');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-        while (str[i] != '\0')
-        {
-        putchar(str[i]);
-        i++;
-        }
-
-        return (0); /* Return value 0 indicates successful execution */
+	return (0);
+}
