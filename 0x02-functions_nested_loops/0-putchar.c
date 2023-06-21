@@ -5,15 +5,14 @@
  */
 int main(void)
 {
-	/* This program prints "_putchar" followed by a new line */
-	char str[] = "_putchar\n";
-	int i = 0;
+        /* This program prints "_putchar" followed by a new line */
+        char str[] = "_putchar\n";
+        int i = 0;
 
-	while (str[i] != '\0')
-	{
-	putchar(str[i]);
-	i++;
-	}
+        while (str[i] != '\0')
+        {
+        putchar(str[i]);
+        i++;
+        }
 
-	return (0); /* Return value 0 indicates successful execution */
-}
+        return (0); /* Return value 0 indicates successful execution */
