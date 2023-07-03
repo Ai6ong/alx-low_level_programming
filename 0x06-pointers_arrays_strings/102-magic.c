@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main -  Add one line print a[2] = 98, followed by a new line
+* main -  Add one line print a[2] = 98, followed by a new line.
 *
 * Return: 0 (successful)
 */
