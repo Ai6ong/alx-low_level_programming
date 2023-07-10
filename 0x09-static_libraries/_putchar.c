@@ -1,5 +1,5 @@
 #include <stdio.h>
 
-int _abs(int n)
+int _putchar(char c)
 {
 }
